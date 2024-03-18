@@ -14,9 +14,9 @@ from email.message import EmailMessage
 
 import schedule
 
-departure_flight_inputs = {'Departure ' : " ORD",
-                           'Arrival': " LAX", 'Date': "Jun 20, 2024"}
-return_flight_inputs = {'Departure': " LAX", 'Arrival': " ORD", 'Date': "Aug 28, 2024"}
+departure_flight_inputs = {'Departure ' : " CLJ",
+                           'Arrival': " EIN", 'Date': "Jun 20, 2024"}
+return_flight_inputs = {'Departure': " EIN", 'Arrival': " CJ", 'Date': "Aug 28, 2024"}
 def find_cheapest_flight(flight_info):
     PATH = '/Users/test1/Desktop/chromedriver'
     driver = webdriver.Chrome(PATH)
