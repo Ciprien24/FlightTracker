@@ -149,7 +149,7 @@ def find_cheapest_flight(flight_info):
 
                 if not df.empty:  # Only send an email if we have actual flight info
                     email = open('ciprianbalan244@gmail.com').read()
-                    password = open('stelian2002').read()
+                    password = open('***********').read()
 
                     msg = EmailMessage()
 
