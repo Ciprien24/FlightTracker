@@ -24,7 +24,6 @@ def find_cheapest_flight(flight_info):
     going_to = flight_info['Arrival']
     trip_date = flight_info['Date']
 
-    #Go to Expedia
     driver.get('https://www.kiwi.com/')
 
     #Click on the DropDown Menu to select type of flight
